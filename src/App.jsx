@@ -14,7 +14,7 @@ import Faq from './components/Faq';
 import Latestnews from './components/Latestnews.jsx';
 import Contact from './components/Contact';
 import Newsletter from './components/Newsletter';
-import Footer from './components/Footer';
+import Footer from './components/Footer.jsx';
 function App() {
   return (
     <div className="relative min-h-screen overflow-hidden bg-gradient-to-b from-blue-100 to-white dark:from-gray-900 dark:to-gray-800 transition-colors duration-500">
