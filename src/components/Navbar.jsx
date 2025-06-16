@@ -23,11 +23,11 @@ const Navbar = () => {
   };
 
   return (
-    // <nav className="absolute top-0 left-0 w-full z-20 px-8 py-4 flex items-center justify-between text-black dark:text-white bg-transparent">
-    <nav
-      className={`fixed top-0 left-0 w-full z-50 px-8 py-4 flex items-center justify-between transition-colors duration-300
-        ${scrolled ? 'bg-white dark:bg-gray-900 shadow-md text-black dark:text-white' : 'bg-transparent text-black dark:text-white'}
-      `}
+     <nav
+      className="fixed top-0 left-0 w-full z-50 px-8 py-5 flex items-center justify-between
+        bg-white/40 dark:bg-gray-900/30
+        backdrop-blur-xs border-b border-white/30 dark:border-gray-700
+        text-black dark:text-white transition-all duration-300"
     >
       {/* Left: Logo */}
       <div className="text-2xl font-bold">Crypto</div>

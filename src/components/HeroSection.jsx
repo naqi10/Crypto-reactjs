@@ -1,6 +1,8 @@
 import React from 'react';
 import bitcoin from '../assets/btc.webp'; 
-import ethereum from '../assets/eth.png'// Replace with actual image paths
+import ethereum from '../assets/eth.png'
+import chain from '../assets/chain.png';
+import polygon from '../assets/polygon.png';
 const HeroSection = () => {
   return (
     <section className="text-center py-20 px-4 pt-40 pb-20 px-4 ">
@@ -15,6 +17,8 @@ const HeroSection = () => {
       <div className="flex pt-10 justify-center items-center gap-4 mt-6">
         <img src={bitcoin} alt="bitcoin" className="w-10 h-10" />
         <img src={ethereum} alt="ethereum" className="w-10 h-10" />
+        <img src={chain} alt="ethereum" className="w-10 h-10" />
+        <img src={polygon} alt="ethereum" className="w-10 h-10" />
         {/* Add more icons as needed */}
       </div>
       <button className="mt-8 px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700">

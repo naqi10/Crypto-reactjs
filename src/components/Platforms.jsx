@@ -23,6 +23,7 @@ const Platforms = () => {
       </a>
       <a href="https://plainadmin.com" target="_blank" rel="noopener noreferrer">
         <img src="/logos/plainadmin.svg" alt="PlainAdmin" className="h-8" />
+        
       </a>
     </div>
   </div>
