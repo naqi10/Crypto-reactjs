@@ -13,7 +13,7 @@ import Downloads from './components/Downloads';
 import Faq from './components/Faq';
 import LatestNews from './components/Latestnews.jsx';
 import Contact from './components/Contact';
-import NewsLetter from './components/NewsLetter';
+import NewsLetter from './components/NewsLetter.jsx';
 import Footer from './components/Footer';
 function App() {
   return (
