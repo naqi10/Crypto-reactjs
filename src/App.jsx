@@ -11,7 +11,7 @@ import TeamSection from './components/TeamSection';
 import Testimonials from './components/Testimonials';
 import Downloads from './components/Downloads';
 import Faq from './components/Faq';
-import LatestNews from './components/LatestNews.jsx';
+import Latestnews from './components/Latestnews.jsx';
 import Contact from './components/Contact';
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
@@ -29,7 +29,7 @@ function App() {
   <Testimonials/>
   <Downloads/>
   <Faq/>
-  <LatestNews/>
+  <Latestnews/>
   <Contact/>
   <Newsletter />
   <Footer/>
