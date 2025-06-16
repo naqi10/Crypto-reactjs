@@ -2,7 +2,7 @@
 import { useState } from "react"
 import { Send } from "lucide-react"
 
-export default function Newsletter() {
+export default function NewsLetter() {
     const [email, setEmail] = useState("")
     const [isSubmitted, setIsSubmitted] = useState(false)
     const [isLoading, setIsLoading] = useState(false)
