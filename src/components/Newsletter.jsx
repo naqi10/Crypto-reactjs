@@ -30,9 +30,9 @@ export default function Newsletter() {
 
     return (
         <section id="newsletter" className="relative z-10">
-            <div class="bg-primary absolute-top-0 left-0 z-10 h(120px) w-full dark:bg-(#14102c)">
-                <div class="container">
-                <div className="wow fadeInUp bg-dark relative z-10 overflow-hidden rounded-sm p-8 sm:p-12" data wow-delay="">
+            <div className="bg-primary absolute-top-0 left-0 z-10 h(120px) w-full dark:bg-(#14102c)">
+                <div className="container">
+                <div className="wow fadeInUp bg-dark relative z-10 overflow-hidden rounded-sm p-8 sm:p-12">
                     <div className="max-w-xl mx-auto">
                         <div className="text-center mb-6">
                             <h2 className="text-2xl font-bold text-white mb-2">Subscribe to Our Newsletter</h2>
